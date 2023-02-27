@@ -1,0 +1,19 @@
+<resources>
+  <string name="app_name">Cruzr Zone</string>
+
+  <!--  Main Activity-->
+  <string name="find_humans">Find Humans</string>
+  <string name="recommend_approach">Recommend Approach</string>
+  <string name="recommend_engage">Recommend Engage</string>
+  <string name="approach_human">Approach</string>
+  <string name="engage_human">Engage</string>
+  <string name="human_age">Age: %d</string>
+  <string name="human_gender">Gender: %s</string>
+  <string name="human_pleasure_state">Pleasure state: %s</string>
+  <string name="human_excitement_state">Excitement state: %s</string>
+  <string name="human_engagement_state">Engagement state: %s</string>
+  <string name="human_smile_state">Smile state: %s</string>
+  <string name="human_attention_state">Attention state: %s</string>
+  <string name="human_item">Human %d</string>
+
+</resources>
