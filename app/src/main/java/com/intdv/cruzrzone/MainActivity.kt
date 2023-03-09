@@ -67,11 +67,6 @@ class MainActivity : AppCompatActivity(), HumansAdapter.IHumanListener {
         //TODO: Implement
     }
 
-    override fun onPause() {
-        sensorManager.unregisterListener(sensorListener)
-        super.onPause()
-    }
-
     override fun onResume() {
         super.onResume()
         sensorListener = SensorListener { sensorDevice, sensorEvent ->
@@ -93,6 +88,11 @@ class MainActivity : AppCompatActivity(), HumansAdapter.IHumanListener {
         }
 
         sensorManager.registerListener(SENSOR_HUMAN_DETECT, sensorListener)
+    }
+
+    override fun onPause() {
+        sensorManager.unregisterListener(sensorListener)
+        super.onPause()
     }
 
     companion object {
