@@ -100,6 +100,5 @@ class MainActivity : AppCompatActivity(), HumansAdapter.IHumanListener {
         private const val SENSOR_HUMAN_DETECT = "human_detect" //Human detection sensor ID
         private const val HUMAN_CLOSER = 1 // There are objects approaching
         private const val HUMAN_AWAY = 2 //There are objects leaving
-        private const val HUMAN_DETECT_DISTANT_THRESHOLD = 1.3f // There is people
     }
 }
