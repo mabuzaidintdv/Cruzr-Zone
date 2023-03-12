@@ -2,7 +2,7 @@
 
 This is a simple project to test Cruzr robot human awareness and whether it can detect the presence of humans around it.
 
-*Implementation*
+## Implementation
 
 The project is very basic as it doesn't offer a lot control options as offered by Pepper.
 1) We implement a SensorListener that starts looking for humans around the robot.
